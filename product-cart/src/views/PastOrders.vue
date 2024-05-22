@@ -6,7 +6,7 @@
       <table class="product-list-container" v-for="(product) in order.order_items">
         <thead>
           <tr class="table-container">
-            <td><strong>Product Image</strong></td>
+            <td><strong>Image</strong></td>
             <td><strong>Product</strong></td>
             <td><strong>Price</strong></td>
             <td><strong>Quantity</strong></td>
