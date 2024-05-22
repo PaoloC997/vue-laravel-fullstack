@@ -2,7 +2,7 @@
   <main class="wrapper">
     <h1>Past Orders</h1>
     <div class="main-container" v-for="(order, i) in this.pastOrdersList" key="i">
-      <h3>Order # {{ order.order_id }}</h3>
+      <h3>Order Number {{ order.order_id }}</h3>
       <table class="product-list-container" v-for="(product) in order.order_items">
         <thead>
           <tr class="table-container">
