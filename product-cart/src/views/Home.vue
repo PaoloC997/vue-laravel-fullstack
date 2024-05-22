@@ -2,7 +2,7 @@
   <div class="home">
     <div class="splash-container">
       <div class="splash">
-        <h1>Splendid Foodses</h1>
+        <h1>Splendid Foods</h1>
       </div>
     </div>
     <main class="wrapper">
