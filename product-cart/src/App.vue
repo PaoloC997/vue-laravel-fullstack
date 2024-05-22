@@ -59,7 +59,7 @@ export default {
 
 async mounted(){
 
-    const res = await fetch('http://192.168.1.109:8000/api/products')
+    const res = await fetch("http://localhost:8000/api/products")
     const data = await res.json()
     this.inventory = data
   }
